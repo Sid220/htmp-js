@@ -1,5 +1,5 @@
 {
-  "name": "htmp",
+  "name": "htmpp",
   "version": "1.0.0",
   "description": "HTMP Parser for NodeJS",
   "main": "htmp.ts",

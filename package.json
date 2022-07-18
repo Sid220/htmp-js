@@ -1,9 +1,8 @@
 {
   "name": "htmpp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "HTMP Parser for NodeJS",
-  "main": "htmp.ts",
-  "type": "module",
+  "main": "htmp.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc htmp.ts && ./node_modules/.bin/minify-all-js ./ && npm publish"
   },

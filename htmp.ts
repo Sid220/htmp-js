@@ -111,3 +111,4 @@ const htmp: object = {
         });
     }
 }
+module.exports = htmp;

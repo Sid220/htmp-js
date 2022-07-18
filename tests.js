@@ -1,2 +1,1 @@
-const htmp = require("./htmp.js");
-console.log(htmp);
+const htmp=require("./htmp.js");console.log(htmp);

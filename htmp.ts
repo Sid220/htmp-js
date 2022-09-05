@@ -1,5 +1,12 @@
 import * as fs from "fs";
-const htmp: object = {
+interface Htmp {
+    getAll(file: string, callback): void,
+    getHTML(file: string, callback): void,
+    getCSS(file: string, callback): void,
+    getJS(file: string, callback): void,
+    validate(file: string, callback): void,
+}
+const htmp: Htmp = {
     getAll: function(file: string, callback) {
         this.validate(file, function (valid, message) {
             if(valid) {

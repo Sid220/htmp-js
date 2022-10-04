@@ -1,13 +1,14 @@
 {
   "name": "htmpp",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "HTMP Parser for NodeJS",
   "main": "htmp.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc htmp.ts && ./node_modules/.bin/minify-all-js ./ && npm publish"
+    "build": ".\\node_modules\\.bin\\tsc htmp.ts && .\\node_modules\\.bin\\minify-all-js ./ && npm publish"
   },
   "author": "The Fake Slim Shady",
   "license": "MIT",
+  "typings": "htmp.d.ts",
   "devDependencies": {
     "@types/node": "^18.0.6",
     "tsup": "^6.1.3",
